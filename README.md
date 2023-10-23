@@ -1,8 +1,8 @@
-# [your app name here]
+# Recipe Box
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [your names here]
+Designed and developed by: Sai Sumanth Goud Parakala
 
 🔗 Link to deployed app:
 
@@ -10,11 +10,11 @@ Designed and developed by: [your names here]
 
 ### Description and Purpose
 
-[text goes here]
+Recipe Box is a web application that allows users to discover and share their favorite recipes. Users can categorize recipes, add ingredients, and explore a variety of cooking inspirations.
 
 ### Inspiration
 
-[text goes here]
+The idea for Recipe Box was born out of my passion for cooking and the desire to create a platform where individuals can come together to share and explore diverse culinary creations.
 
 ## Tech Stack
 
@@ -24,21 +24,27 @@ Backend:
 
 ## Features
 
-### [Name of Feature 1]
+### Recipe Discovery
 
-[short description goes here]
-
-[gif goes here]
-
-### [Name of Feature 2]
-
-[short description goes here]
+Allows users to explore a wide range of recipes
 
 [gif goes here]
 
-### [Name of Feature 3]
+### CRUD Operations on Recipes
 
-[short description goes here]
+Allows users to create, read, update, and delete their recipes.
+
+[gif goes here]
+
+### Professions-based Recipes
+
+Categorizes recipes based on user professions, providing a unique approach to recipe organization.
+
+[gif goes here]
+
+### Recipe Category Management
+
+Enables users to manage recipe categories seamlessly and filter recipes based on categories.
 
 [gif goes here]
 
