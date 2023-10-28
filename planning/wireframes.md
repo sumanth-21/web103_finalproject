@@ -16,7 +16,7 @@ Recipe Detail ⭐
 
 ## Wireframe 2: [Filter by Profession and Category]
 
-<img src='https://github.com/psf/black/assets/62218066/3c9aa409-23d6-4420-a080-30ec2fa5f01b' title='Filter by Profession and Category wireframe' width='' alt='Filter by Profession and Category wireframe' />
+<img src='https://github.com/xxlong0/Wonder3D/assets/62218066/f544ff3e-7d81-4019-8998-d5186da923e8' title='Filter by Profession and Category wireframe' width='' alt='Filter by Profession and Category wireframe' />
 
 ## Wireframe 3: [Recipe Detail]
 
