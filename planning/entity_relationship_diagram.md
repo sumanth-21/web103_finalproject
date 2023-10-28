@@ -21,4 +21,4 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 | ... | ... | ... |
 
 
-<img src='https://github.com/sumanth-21/DIY-Delight/blob/main/client/src/assets/Android%20Studio%20Demo-3.gif' title='Entity Relationship Diagram' width='' alt='Entity Relationship Diagram' />
+<img src='https://github.com/freeCodeCamp/freeCodeCamp/assets/62218066/4a5c2f28-387d-49b9-bfd4-f0a8f6dad643' title='Entity Relationship Diagram' width='' alt='Entity Relationship Diagram' />
