@@ -6,6 +6,10 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 [👉🏾👉🏾👉🏾 List the pages you expect to have in your app, with a ⭐ next to pages you have wireframed]
 
+Post a Recipe ⭐
+Filter by Profession and Category ⭐
+Recipe Detail ⭐
+
 ## Wireframe 1: [page title]
 
 [👉🏾👉🏾👉🏾 include wireframe 1]
