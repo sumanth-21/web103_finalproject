@@ -10,16 +10,16 @@ Post a Recipe ⭐
 Filter by Profession and Category ⭐
 Recipe Detail ⭐
 
-## Wireframe 1: [page title]
+## Wireframe 1: [Post a Recipe]
 
-[👉🏾👉🏾👉🏾 include wireframe 1]
+<img src='https://github.com/psf/black/assets/62218066/3c9aa409-23d6-4420-a080-30ec2fa5f01b' title='Post a Recipe wireframe' width='' alt='Post a Recipe wireframe' />
 
-## Wireframe 2: [page title]
+## Wireframe 2: [Filter by Profession and Category]
 
-[👉🏾👉🏾👉🏾 include wireframe 2]
+<img src='https://github.com/psf/black/assets/62218066/3c9aa409-23d6-4420-a080-30ec2fa5f01b' title='Filter by Profession and Category wireframe' width='' alt='Filter by Profession and Category wireframe' />
 
-## Wireframe 3: [page title]
+## Wireframe 3: [Recipe Detail]
 
-[👉🏾👉🏾👉🏾 include wireframe 3]
+<img src='https://github.com/psf/black/assets/62218066/b6fd481a-1830-4e24-8204-da90efc8af21' title='Recipe Detail wireframe' width='' alt='Recipe Detail wireframe' />
 
 [👉🏾👉🏾👉🏾 include more wireframes as desired]
