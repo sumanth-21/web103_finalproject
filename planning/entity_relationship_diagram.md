@@ -5,6 +5,11 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 ## Create the List of Tables
 
 [👉🏾👉🏾👉🏾 List each table in your diagram]
+👉🏾 Recipies
+👉🏾Professions
+👉🏾 Categories
+👉🏾 RecipeCategory
+
 
 ## Add the Entity Relationship Diagram
 
@@ -15,3 +20,6 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 | id | integer | primary key |
 | name | text | name of the shoe model |
 | ... | ... | ... |
+
+
+<img src='https://github.com/sumanth-21/DIY-Delight/blob/main/client/src/assets/Android%20Studio%20Demo-3.gif' title='Entity Relationship Diagram' width='' alt='Entity Relationship Diagram' />
