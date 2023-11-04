@@ -4,7 +4,11 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## Create the List of Tables
 
-[👉🏾👉🏾👉🏾 List each table in your diagram]
+👉🏾 Recipies
+👉🏾Professions
+👉🏾 Categories
+👉🏾 RecipeCategory
+
 
 ## Add the Entity Relationship Diagram
 
@@ -15,3 +19,6 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 | id | integer | primary key |
 | name | text | name of the shoe model |
 | ... | ... | ... |
+
+
+<img src='https://github.com/freeCodeCamp/freeCodeCamp/assets/62218066/4a5c2f28-387d-49b9-bfd4-f0a8f6dad643' title='Entity Relationship Diagram' width='' alt='Entity Relationship Diagram' />
