@@ -1,0 +1,78 @@
+{
+  "professions": [
+    { "profession_id": 1, "profession_name": "Chef" },
+    { "profession_id": 2, "profession_name": "Home Cook" },
+    { "profession_id": 3, "profession_name": "Baker" },
+    { "profession_id": 4, "profession_name": "Culinary Student" },
+    { "profession_id": 5, "profession_name": "Food Blogger" }
+  ],
+  "recipes": [
+    {
+      "recipe_id": 1,
+      "title": "Spaghetti Bolognese",
+      "ingredients": [
+        "Pasta",
+        "Ground Beef",
+        "Tomato Sauce",
+        "Onions",
+        "Garlic"
+      ],
+      "instructions": "Boil pasta. Cook ground beef with onions and garlic. Mix with tomato sauce. Serve over pasta.",
+      "profession_id": 1
+    },
+    {
+      "recipe_id": 2,
+      "title": "Vegetarian Stir-Fry",
+      "ingredients": [
+        "Tofu",
+        "Broccoli",
+        "Bell Peppers",
+        "Soy Sauce",
+        "Ginger"
+      ],
+      "instructions": "Stir-fry tofu and vegetables in soy sauce and ginger. Serve hot.",
+      "profession_id": 2
+    },
+    {
+      "recipe_id": 3,
+      "title": "Chocolate Cake",
+      "ingredients": ["Flour", "Sugar", "Cocoa Powder", "Eggs", "Butter"],
+      "instructions": "Mix dry ingredients. Beat eggs and add to mixture. Bake until a toothpick comes out clean.",
+      "profession_id": 3
+    },
+    {
+      "recipe_id": 4,
+      "title": "Avocado Toast",
+      "ingredients": ["Avocado", "Bread", "Salt", "Pepper", "Lemon Juice"],
+      "instructions": "Mash avocado and spread on toasted bread. Sprinkle with salt, pepper, and lemon juice.",
+      "profession_id": 4
+    },
+    {
+      "recipe_id": 5,
+      "title": "Tacos",
+      "ingredients": [
+        "Ground Beef",
+        "Tortillas",
+        "Lettuce",
+        "Tomatoes",
+        "Cheese"
+      ],
+      "instructions": "Cook ground beef. Fill tortillas with beef, lettuce, tomatoes, and cheese. Enjoy!",
+      "profession_id": 5
+    }
+  ],
+  "categories": [
+    { "category_id": 1, "category_name": "Italian" },
+    { "category_id": 2, "category_name": "Vegetarian" },
+    { "category_id": 3, "category_name": "Dessert" },
+    { "category_id": 4, "category_name": "Breakfast" },
+    { "category_id": 5, "category_name": "Mexican" }
+  ],
+  "recipeCategory": [
+    { "recipe_id": 1, "category_id": 1 },
+    { "recipe_id": 1, "category_id": 2 },
+    { "recipe_id": 2, "category_id": 2 },
+    { "recipe_id": 2, "category_id": 3 },
+    { "recipe_id": 3, "category_id": 4 }
+  ]
+}
