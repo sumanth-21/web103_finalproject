@@ -1,5 +1,8 @@
 import express from "express";
 import cors from "cors";
+import recipeRoutes from "./routes/recipes.js";
+import professionsRoutes from "./routes/professions.js";
+import categoriesRoutes from "./routes/categories.js";
 
 const app = express();
 
@@ -13,6 +16,10 @@ app.get("/", (req, res) => {
       '<h1 style="text-align: center; margin-top: 50px;">RecipeBook API</h1>'
     );
 });
+
+app.use("/api/recipes", recipeRoutes);
+app.use("/api/professions", professionsRoutes);
+app.use("/api/categories", categoriesRoutes);
 
 const PORT = process.env.PORT || 3001;
 
