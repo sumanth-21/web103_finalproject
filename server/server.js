@@ -6,7 +6,7 @@ import categoriesRoutes from "./routes/categories.js";
 
 const CLIENT_URL =
   process.env.NODE_ENV === "production"
-    ? "recipe-book-client.up.railway.app"
+    ? "https://recipe-book-client.up.railway.app"
     : "http://localhost:3000";
 
 const app = express();
