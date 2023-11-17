@@ -24,25 +24,26 @@ Backend:
 
 ## Features
 
-### Recipe Discovery
+- [x] Recipe Discovery
 
 Allows users to explore a wide range of recipes
 
-[gif goes here]
+<img src='https://github.com/sumanth-21/web103_finalproject/blob/main/client/src/assets/Android%20Studio%20Demo-3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-### CRUD Operations on Recipes
+- [x] CRUD Operations on Recipes
 
 Allows users to create, read, update, and delete their recipes.
 
-[gif goes here]
+<img src='https://github.com/sumanth-21/web103_finalproject/blob/main/client/src/assets/Android%20Studio%20Demo-5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-### Professions-based Recipes
+
+- [x] Professions-based Recipes
 
 Categorizes recipes based on user professions, providing a unique approach to recipe organization.
 
-[gif goes here]
+<img src='https://github.com/sumanth-21/web103_finalproject/blob/main/client/src/assets/Android%20Studio%20Demo-4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-### Recipe Category Management
+- [ ] Recipe Category Management
 
 Enables users to manage recipe categories seamlessly and filter recipes based on categories.
 
