@@ -4,17 +4,24 @@ import recipeRoutes from "./routes/recipes.js";
 import professionsRoutes from "./routes/professions.js";
 import categoriesRoutes from "./routes/categories.js";
 
+const CLIENT_URL =
+  process.env.NODE_ENV === "production"
+    ? "recipe-book-client.up.railway.app"
+    : "http://localhost:3000";
+
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: CLIENT_URL,
+    methods: "GET,POST,PUT,DELETE,PATCH",
+    credentials: true,
+  })
+);
 
 app.get("/", (req, res) => {
-  res
-    .status(200)
-    .send(
-      '<h1 style="text-align: center; margin-top: 50px;">RecipeBook API</h1>'
-    );
+  res.redirect(CLIENT_URL);
 });
 
 app.use("/api/recipes", recipeRoutes);
