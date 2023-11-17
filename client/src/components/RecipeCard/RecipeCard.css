@@ -1,0 +1,10 @@
+.RecipeCard {
+  border: 1px solid blue;
+  border-radius: 25px;
+  margin: 16px;
+  padding: 16px;
+}
+
+.RecipeCard p {
+  text-align: left;
+}

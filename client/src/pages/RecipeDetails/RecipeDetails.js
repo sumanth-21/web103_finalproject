@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import Modal from "../../utilities/Modal/Modal";
+import "./RecipeDetails.css";
 
 const RecipeDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
 
   const [recipe, setRecipe] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -14,34 +17,54 @@ const RecipeDetails = () => {
         const data = await response.json();
         setRecipe(data);
       } catch (error) {
-        console.error("Error fetching recipe details:", error);
+        navigate("/", {
+          state: { alertMessage: "Creator Not Found :(" },
+        });
       }
     };
 
     fetchData();
-  }, [id]);
+  }, [id, navigate]);
 
   const handleEdit = () => {
     navigate(`/edit/${id}`);
   };
 
-  const handleDelete = async () => {
+  const handleDeleteButtonClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const onDeleteRecipeHandler = async () => {
     try {
       const options = {
         method: "DELETE",
       };
 
       await fetch(`/api/recipes/${id}`, options);
-      navigate("/"); // Redirect to the home page after deleting the recipe
+      navigate("/", {
+        state: { alertMessage: `${recipe.title} Deleted Successfully!!` },
+      });
     } catch (error) {
       console.error("Error deleting recipe:", error);
     }
   };
 
+  const onCancelHandler = (e) => {
+    e.preventDefault();
+    setIsModalOpen(false);
+  };
+
   return (
     <div>
       {recipe ? (
-        <div>
+        <div className="RecipeDetails">
+          {isModalOpen && (
+            <Modal
+              name={recipe.title}
+              onConfirm={onDeleteRecipeHandler}
+              onCancel={onCancelHandler}
+            />
+          )}
           <h2>{recipe.title}</h2>
           <p>
             <strong>Ingredients:</strong> {recipe.ingredients.join(", ")}
@@ -61,8 +84,8 @@ const RecipeDetails = () => {
               </span>
             ))}
           </p>
-          <button onClick={handleEdit}>Edit</button>
-          <button onClick={handleDelete}>Delete</button>
+          <input type="submit" value="Edit" onClick={handleEdit} />
+          <button onClick={handleDeleteButtonClick}>Delete</button>
         </div>
       ) : (
         <p>Loading...</p>

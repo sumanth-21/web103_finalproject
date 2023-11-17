@@ -1,0 +1,32 @@
+.alert {
+  padding: 8px 20px;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 101;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fde073;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 5px black;
+  animation: slideDown 2.5s 1s 1 ease forwards;
+
+  @keyframes slideDown {
+    0%,
+    100% {
+      top: -50px;
+      transform: translate(-50%, -50px);
+    }
+    10%,
+    90% {
+      top: 100px;
+      transform: translate(-50%, 0px);
+    }
+  }
+
+  &__message {
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
