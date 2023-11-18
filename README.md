@@ -4,7 +4,7 @@ CodePath WEB103 Final Project
 
 Designed and developed by: Sai Sumanth Goud Parakala
 
-🔗 Link to deployed app:
+🔗 Link to deployed app: https://recipe-book-client.up.railway.app/
 
 ## About
 
@@ -43,11 +43,11 @@ Categorizes recipes based on user professions, providing a unique approach to re
 
 <img src='https://github.com/sumanth-21/web103_finalproject/blob/main/client/src/assets/Android%20Studio%20Demo-4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-- [ ] Recipe Category Management
+- [x] Recipe Category Management 
 
 Enables users to manage recipe categories seamlessly and filter recipes based on categories.
 
-[gif goes here]
+<img src='https://github.com/sumanth-21/web103_finalproject/blob/main/client/src/assets/Android%20Studio%20Demo-6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
 

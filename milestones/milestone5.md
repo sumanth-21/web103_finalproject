@@ -9,10 +9,10 @@ This unit, be sure to complete all tasks listed below. To complete a task, place
 - [x] Deploy your project on Railway
   - [x] In `readme.md`, add the link to your deployed project
 - [x] Update the status of issues in your project board as you complete them
-- [ ] In `readme.md`, check off the features you have completed in this unit by adding a ✅ emoji in front of their title
-  - [ ] Under each feature you have completed, **include a GIF** showing feature functionality
-- [ ] In this document, complete the **Reflection** section below
-- [ ] 🚩🚩🚩**Complete the Final Project Feature Checklist section below**, detailing each feature you completed in the project (ONLY include features you implemented, not features you planned)
+- [x] In `readme.md`, check off the features you have completed in this unit by adding a ✅ emoji in front of their title
+  - [x] Under each feature you have completed, **include a GIF** showing feature functionality
+- [x] In this document, complete the **Reflection** section below
+- [x] 🚩🚩🚩**Complete the Final Project Feature Checklist section below**, detailing each feature you completed in the project (ONLY include features you implemented, not features you planned)
 - [ ] 🚩🚩🚩**Record a GIF showing a complete run-through of your app** that displays all the components included in the **Final Project Feature Checklist** below
   - [ ] Include this GIF in the **Final Demo GIF** section below
 
@@ -77,20 +77,20 @@ Complete the checklist below detailing each baseline, custom, and stretch featur
 
 ### 1. What went well during this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Well, I was able to successfully deploy the project, and the overall structure and functionality seem solid. My codebase is organized, and I feel confident in the design choices I made.
 
 ### 2. What were some challenges your group faced in this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+While deploying the project, I encountered issues with the APIs not working in the deployed version. Troubleshooting this became a significant challenge.
 
 ### 3. What were some of the highlights or achievements that you are most proud of in this project?
 
-[👉🏾👉🏾👉🏾 your answer here]
+I'm proud of the clean code structure and the successful deployment. Despite the API hiccup, the project itself, when tested locally, showcased the features and functionality I envisioned.
 
 ### 4. Reflecting on your web development journey so far, how have you grown since the beginning of the course?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Since the beginning of the course, I've developed a deeper understanding of full-stack development. I've become more proficient in handling server-side logic, connecting databases, and creating responsive and dynamic user interfaces. This individual project has been a testament to my growth.
 
 ### 5. Looking ahead, what are your goals related to web development, and what steps do you plan to take to achieve them?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Moving forward, I plan to refine the deployed version, ensuring the APIs are fully functional. I also aim to continue exploring new technologies and frameworks to expand my skill set. I'll actively seek opportunities for real-world application of my knowledge, possibly through contributing to open-source projects or taking on more complex development challenges. Continuous learning and practical application will be my focus.
