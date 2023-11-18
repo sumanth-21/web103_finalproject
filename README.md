@@ -4,7 +4,7 @@ CodePath WEB103 Final Project
 
 Designed and developed by: Sai Sumanth Goud Parakala
 
-🔗 Link to deployed app:
+🔗 Link to deployed app: https://recipe-book-client.up.railway.app/
 
 ## About
 
